@@ -1,0 +1,21 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+
+#bucket div{
+    width: 70%;
+    text-align: center;
+    border: solid 1px blue;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 12px;
+}
+
+#bucket img {
+    height: 290px;
+    width: 250px;
+    margin: 5px;
+
+}
